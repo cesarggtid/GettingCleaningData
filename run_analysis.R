@@ -69,4 +69,4 @@ x_fin <- tbl_df(merge(x_comb,activity_labels_tbl)) %>%
   summarise_each(funs(mean))
 
 # Export result data to a file
-write.table(x_fin, file="D:/workspace-R/coursera/data/x_output.txt", sep=",", row.names = FALSE)
+write.table(x_fin, file="x_output.txt", sep=",", row.names = FALSE)
